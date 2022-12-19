@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário </h1>
+        <h2>Digite um número em cada campo:</h2>
+        <form id="form_numeros">
+            <input id="num_a" type="number" required placeholder="Valor A"/>
+            <input id="num_b" type="number" required placeholder="Valor B"/>
+
+            <p class = "error-message">
+                ERRO! O valor A não pode ser maior que o valor B
+            </p>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+        <p  class = "success-message">-</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
